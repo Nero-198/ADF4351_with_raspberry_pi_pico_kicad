@@ -212,6 +212,292 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x05_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x05, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_Pin_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x05_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1753,463 +2039,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "dk_Rectangular-Connectors-Headers-Male-Pins:302-S101"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "302-S101"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "digikey-footprints:PinHeader_2x5_P2.54mm_Drill1.2mm"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf"
-				(at 5.08 7.62 90)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "CONN HEADER VERT 10POS 2.54MM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digi-Key_PN" "ED1543-ND"
-				(at 5.08 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MPN" "302-S101"
-				(at 5.08 12.7 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Category" "Connectors, Interconnects"
-				(at 5.08 15.24 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Family" "Rectangular Connectors - Headers, Male Pins"
-				(at 5.08 17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Datasheet_Link" "http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf"
-				(at 5.08 20.32 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "DK_Detail_Page" "/product-detail/en/on-shore-technology-inc/302-S101/ED1543-ND/2178422"
-				(at 5.08 22.86 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "CONN HEADER VERT 10POS 2.54MM"
-				(at 5.08 25.4 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "On Shore Technology Inc."
-				(at 5.08 27.94 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Status" "Active"
-				(at 5.08 30.48 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ED1543-ND 302"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "302-S101_1_1"
-				(rectangle
-					(start -2.54 6.35)
-					(end 2.54 -6.35)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.524 5.334)
-					(end -1.016 4.826)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 2.794)
-					(end -1.016 2.286)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 0.254)
-					(end -1.016 -0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 -2.286)
-					(end -1.016 -2.794)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 -4.826)
-					(end -1.016 -5.334)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 5.334)
-					(end 1.524 4.826)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 2.794)
-					(end 1.524 2.286)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 0.254)
-					(end 1.524 -0.254)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 -2.286)
-					(end 1.524 -2.794)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.016 -4.826)
-					(end 1.524 -5.334)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "dk_Rectangular-Connectors-Headers-Male-Pins:B4B-XH-A_LF__SN_"
 			(pin_names
 				(offset 1.016)
@@ -3183,7 +3012,7 @@
 	)
 	(global_label "CE"
 		(shape input)
-		(at 242.57 60.96 180)
+		(at 233.68 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3194,7 +3023,7 @@
 		)
 		(uuid "1766cf28-7ae7-4686-994e-1f22ac92abed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.1658 60.96 0)
+			(at 228.2758 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +3194,7 @@
 	)
 	(global_label "CLK"
 		(shape input)
-		(at 242.57 66.04 180)
+		(at 233.68 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3376,7 +3205,7 @@
 		)
 		(uuid "600bd7fb-69b1-403e-8bf9-1a18ba989c72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.0167 66.04 0)
+			(at 227.1267 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3217,7 @@
 	)
 	(global_label "MUX"
 		(shape input)
-		(at 252.73 66.04 0)
+		(at 251.46 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3399,7 +3228,7 @@
 		)
 		(uuid "630c1542-200b-4c37-be45-b3468ac7a76a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.7066 66.04 0)
+			(at 258.4366 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +3306,7 @@
 	)
 	(global_label "PDR"
 		(shape input)
-		(at 252.73 68.58 0)
+		(at 251.46 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3488,7 +3317,7 @@
 		)
 		(uuid "80c06315-83f8-49d2-9756-60c45ac336d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.5252 68.58 0)
+			(at 258.2552 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,7 +3396,7 @@
 	)
 	(global_label "LD"
 		(shape input)
-		(at 242.57 68.58 180)
+		(at 233.68 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3578,7 +3407,7 @@
 		)
 		(uuid "9caff273-13d8-48d1-91f4-be08560c137a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.2867 68.58 0)
+			(at 228.3967 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +3510,7 @@
 	)
 	(global_label "LE"
 		(shape input)
-		(at 242.57 63.5 180)
+		(at 233.68 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3692,7 +3521,7 @@
 		)
 		(uuid "aa568cd2-19ab-4952-a67c-a2c0036e933d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.4077 63.5 0)
+			(at 228.5177 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +3555,7 @@
 	)
 	(global_label "DAT"
 		(shape input)
-		(at 252.73 63.5 0)
+		(at 251.46 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3737,7 +3566,7 @@
 		)
 		(uuid "b3fe9813-558a-47b9-9b2e-6adde7cca1bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.0414 63.5 0)
+			(at 257.7714 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,6 +4230,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 238.76 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f1edebd-f168-42f4-8fc3-ad919d152bcd")
+		(property "Reference" "J6"
+			(at 239.4712 64.7122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x05_Pin"
+			(at 226.314 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+			(at 238.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 238.76 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1ec46c3c-6346-4814-acb1-8c2b17073bda")
+		)
+		(pin "5"
+			(uuid "4e863e51-2d8d-4faf-a667-8a3b430c64e1")
+		)
+		(pin "1"
+			(uuid "76b28411-97af-494f-b91a-e8700a46f639")
+		)
+		(pin "2"
+			(uuid "87ef44cc-8618-4f7a-bbac-a5f2a6531a9f")
+		)
+		(pin "4"
+			(uuid "12a6804f-2dee-41de-8d5a-fff5cd9b77fe")
+		)
+		(instances
+			(project ""
+				(path "/b04a87e1-1de9-4940-aaab-27fd6fdc3774"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 168.91 160.02 0)
 		(unit 1)
@@ -4534,7 +4442,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 58.42 270)
+		(at 233.68 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4543,7 +4451,7 @@
 		(fields_autoplaced yes)
 		(uuid "403ac631-d6c0-456f-9470-bf00b26c0a95")
 		(property "Reference" "#PWR07"
-			(at 236.22 58.42 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +4460,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 239.3951 58.42 90)
+			(at 230.5051 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +4469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 58.42 0)
+			(at 233.68 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4570,7 +4478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 58.42 0)
+			(at 233.68 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,7 +4487,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 58.42 0)
+			(at 233.68 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,6 +4744,83 @@
 			(project "ADF4351_with_raspberry_pi_pico"
 				(path "/b04a87e1-1de9-4940-aaab-27fd6fdc3774"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 246.38 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a78b7b7-dfa4-4185-9770-43b328ee44d6")
+		(property "Reference" "J2"
+			(at 247.015 54.1993 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Pin"
+			(at 247.015 56.6236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+			(at 246.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 246.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3e6d3b84-f73d-4c32-9bf9-9968b6a9d1b0")
+		)
+		(pin "5"
+			(uuid "427c54e2-3a45-464c-8650-cbd212ee4de1")
+		)
+		(pin "1"
+			(uuid "d43ce80a-7b2a-4cdb-b909-6d8c7aeec8e5")
+		)
+		(pin "2"
+			(uuid "923c6e42-ff31-40c3-9bfe-781d463c70d4")
+		)
+		(pin "4"
+			(uuid "2b634d3e-eef2-4328-b65a-645c1cbf4a83")
+		)
+		(instances
+			(project "ADF4351_with_raspberry_pi_pico"
+				(path "/b04a87e1-1de9-4940-aaab-27fd6fdc3774"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5113,7 +5098,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 252.73 58.42 270)
+		(at 251.46 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5122,7 +5107,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cead456-efd0-4bbd-aa28-a1711869a46d")
 		(property "Reference" "#PWR06"
-			(at 248.92 58.42 0)
+			(at 247.65 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5116,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 255.905 58.42 90)
+			(at 254.635 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +5125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 58.42 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +5134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 58.42 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +5143,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 252.73 58.42 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,190 +6267,6 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Rectangular-Connectors-Headers-Male-Pins:302-S101")
-		(at 247.65 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbc56ac9-f7d4-47e9-9e54-858988bdc54e")
-		(property "Reference" "J2"
-			(at 247.65 53.1325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "302-S101"
-			(at 247.65 55.5568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PinHeader_2x5_P2.54mm_Drill1.2mm"
-			(at 252.73 58.42 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf"
-			(at 252.73 55.88 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN HEADER VERT 10POS 2.54MM"
-			(at 247.65 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "ED1543-ND"
-			(at 252.73 53.34 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "302-S101"
-			(at 252.73 50.8 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Connectors, Interconnects"
-			(at 252.73 48.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Rectangular Connectors - Headers, Male Pins"
-			(at 252.73 45.72 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf"
-			(at 252.73 43.18 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/on-shore-technology-inc/302-S101/ED1543-ND/2178422"
-			(at 252.73 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "CONN HEADER VERT 10POS 2.54MM"
-			(at 252.73 38.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "On Shore Technology Inc."
-			(at 252.73 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 252.73 33.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "dca5bb86-6cf4-40ae-b632-0c162295f1bc")
-		)
-		(pin "8"
-			(uuid "02ef06c0-3f31-4715-8c4c-2a1c24a82276")
-		)
-		(pin "2"
-			(uuid "2b0e97f7-5a10-412a-9c18-40c9ddd6175a")
-		)
-		(pin "5"
-			(uuid "424ff73f-2c34-4c9a-bc83-469579afca97")
-		)
-		(pin "6"
-			(uuid "06ee2062-d896-4c07-9868-8d5812d4f087")
-		)
-		(pin "1"
-			(uuid "1c64ec92-14b2-4b4b-83ae-5ee6ebe1929b")
-		)
-		(pin "9"
-			(uuid "f89d3080-7155-4e09-abd0-25cc4882ac62")
-		)
-		(pin "7"
-			(uuid "31c54b03-e321-4d37-9446-47ad2f88d84c")
-		)
-		(pin "4"
-			(uuid "47ccff6c-df05-4187-bca6-3e4435eadf36")
-		)
-		(pin "10"
-			(uuid "b134dfeb-d792-4747-931a-bf355e7defda")
-		)
-		(instances
-			(project ""
-				(path "/b04a87e1-1de9-4940-aaab-27fd6fdc3774"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad_MP")
 		(at 171.45 139.7 0)
 		(unit 1)
@@ -6534,7 +6335,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 60.96 90)
+		(at 251.46 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6543,7 +6344,7 @@
 		(fields_autoplaced yes)
 		(uuid "e54aac94-e3ed-469e-8f71-3d1c8c5dcbfc")
 		(property "Reference" "#PWR08"
-			(at 259.08 60.96 0)
+			(at 257.81 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,7 +6353,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.905 60.96 90)
+			(at 254.635 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6561,7 +6362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 60.96 0)
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,7 +6371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 60.96 0)
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6579,7 +6380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 60.96 0)
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
